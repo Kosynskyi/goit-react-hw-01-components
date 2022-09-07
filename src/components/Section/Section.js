@@ -5,7 +5,7 @@ export const Section = ({ title, children }) => {
   return (
     <SectionStyle>
       <Container>
-        <div>{title && <Title>{title}</Title>}</div>
+        {title && <Title>{title}</Title>}
         {children}
       </Container>
     </SectionStyle>

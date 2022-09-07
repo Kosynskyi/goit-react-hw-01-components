@@ -13,5 +13,5 @@ export const FriendGallery = ({ items }) => {
 };
 
 FriendGallery.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape),
+  items: PropTypes.arrayOf(PropTypes.shape).isRequired,
 };

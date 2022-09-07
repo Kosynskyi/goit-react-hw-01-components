@@ -10,7 +10,7 @@ import transactions from '../data/transactions';
 
 export const App = () => {
   return (
-    <div>
+    <>
       <Section>
         <Profile
           username={user.username}
@@ -29,6 +29,6 @@ export const App = () => {
       <Section title="My transactions">
         <TransactionHistoryTable items={transactions} />
       </Section>
-    </div>
+    </>
   );
 };
