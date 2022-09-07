@@ -9,7 +9,7 @@ export const TransactionHistoryTable = ({ items }) => {
         <tr>
           <Th>Type</Th>
           <Th>Amount</Th>
-          <th>Currency</th>
+          <Th>Currency</Th>
         </tr>
       </Thead>
       <TBody>
